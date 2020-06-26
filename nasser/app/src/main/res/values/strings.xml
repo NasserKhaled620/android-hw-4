@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">nasser</string>
+    <string name="grand_calculator">Grand Calculator</string>
+    <string name="mid_terms_30">Mid terms %30</string>
+    <string name="homework_25">Homework %25</string>
+    <string name="final_30">Final %30</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="quizes_15">Quizes %15</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="299dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="serif"
+        android:text="grand calculator"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="211dp"
+        android:layout_height="44dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:autofillHints=""
+        android:background="#7B03A9F4"
+        android:ems="10"
+        android:hint="quizes%15"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="209dp"
+        android:layout_height="42dp"
+        android:layout_alignTop="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:autofillHints=""
+        android:background="#7B03A9F4"
+        android:ems="10"
+        android:hint="Homework %25"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="209dp"
+        android:layout_height="41dp"
+        android:layout_alignTop="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:autofillHints=""
+        android:background="#7B03A9F4"
+        android:ems="10"
+        android:hint="mid_terms%30"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="211dp"
+        android:layout_height="49dp"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:autofillHints=""
+        android:background="#7B03A9F4"
+        android:ems="10"
+        android:hint="final%30"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="199dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="50dp"
+        android:background="#969C27B0"
+        android:text="calculate"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/button"
+        android:layout_marginTop="70dp"
+        android:background="#FC9C27B0"
+        android:layout_centerHorizontal="true"
+        android:text="Reset" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="serif"
+        android:textAlignment="center" />
+
+</RelativeLayout>
